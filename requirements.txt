@@ -1,0 +1,11 @@
+numpy>=2.3
+pandas>=3.0
+scipy>=1.17
+matplotlib>=3.10
+statsmodels>=0.14
+arch>=8.0
+yfinance>=1.2
+pyarrow>=23.0
+nbformat>=5.10
+nbconvert>=7.16
+ipykernel>=6.29

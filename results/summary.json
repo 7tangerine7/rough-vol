@@ -1,0 +1,354 @@
+{
+ "n_indices_rv": 31,
+ "n_indices_gk": 20,
+ "H_rv_median": 0.1261808543992941,
+ "H_rv_min": 0.07925501245290723,
+ "H_rv_max": 0.17111736402151423,
+ "H_gk_median": 0.07666123749517971,
+ "H_spx_rv": 0.1490117011878568,
+ "H_spx_rv_se": 0.02055017799270612,
+ "selected": {
+  "rv": {
+   "1": "HAR-L-RFSV",
+   "5": "COMB(RFSV,HAR-L)",
+   "20": "RFSV-roll250"
+  },
+  "gk": {
+   "1": "HAR-L-RFSV",
+   "5": "HAR-L-RFSV",
+   "20": "COMB(RFSV,HAR-L)"
+  }
+ },
+ "headline": [
+  {
+   "data": "rv",
+   "h": 1,
+   "model": "RW",
+   "mean MSE(log v)": 0.42907875776290894,
+   "MSE / HAR": 1.3382794857025146,
+   "beats HAR (MSE)": "0/31",
+   "mean QLIKE": 0.3186911360568584,
+   "QLIKE / HAR": 1.4578163441719454,
+   "beats HAR (QLIKE)": "0/31"
+  },
+  {
+   "data": "rv",
+   "h": 1,
+   "model": "GARCH",
+   "mean MSE(log v)": 0.4230591654777527,
+   "MSE / HAR": 1.3329194784164429,
+   "beats HAR (MSE)": "0/31",
+   "mean QLIKE": 0.2520753672212026,
+   "QLIKE / HAR": 1.301857541403235,
+   "beats HAR (QLIKE)": "0/31"
+  },
+  {
+   "data": "rv",
+   "h": 1,
+   "model": "HAR",
+   "mean MSE(log v)": 0.3199236989021301,
+   "MSE / HAR": 1.0,
+   "beats HAR (MSE)": "0/31",
+   "mean QLIKE": 0.1965764164552099,
+   "QLIKE / HAR": 1.0,
+   "beats HAR (QLIKE)": "0/31"
+  },
+  {
+   "data": "rv",
+   "h": 1,
+   "model": "RFSV (paper)",
+   "mean MSE(log v)": 0.32766374945640564,
+   "MSE / HAR": 1.0238155126571655,
+   "beats HAR (MSE)": "5/31",
+   "mean QLIKE": 0.19890369746573194,
+   "QLIKE / HAR": 1.008938624497845,
+   "beats HAR (QLIKE)": "13/31"
+  },
+  {
+   "data": "rv",
+   "h": 1,
+   "model": "Selected: HAR-L-RFSV",
+   "mean MSE(log v)": 0.30047306418418884,
+   "MSE / HAR": 0.9411018490791321,
+   "beats HAR (MSE)": "31/31",
+   "mean QLIKE": 0.18563697480255378,
+   "QLIKE / HAR": 0.946193984246456,
+   "beats HAR (QLIKE)": "29/31"
+  },
+  {
+   "data": "rv",
+   "h": 5,
+   "model": "RW",
+   "mean MSE(log v)": 0.6493763327598572,
+   "MSE / HAR": 1.391184687614441,
+   "beats HAR (MSE)": "0/31",
+   "mean QLIKE": 0.49790205488222145,
+   "QLIKE / HAR": 1.5337492268699549,
+   "beats HAR (QLIKE)": "0/31"
+  },
+  {
+   "data": "rv",
+   "h": 5,
+   "model": "GARCH",
+   "mean MSE(log v)": 0.5459996461868286,
+   "MSE / HAR": 1.1790779829025269,
+   "beats HAR (MSE)": "0/31",
+   "mean QLIKE": 0.35062849630594484,
+   "QLIKE / HAR": 1.1467713483902586,
+   "beats HAR (QLIKE)": "2/31"
+  },
+  {
+   "data": "rv",
+   "h": 5,
+   "model": "HAR",
+   "mean MSE(log v)": 0.4665188491344452,
+   "MSE / HAR": 1.0,
+   "beats HAR (MSE)": "0/31",
+   "mean QLIKE": 0.30825128444660377,
+   "QLIKE / HAR": 1.0,
+   "beats HAR (QLIKE)": "0/31"
+  },
+  {
+   "data": "rv",
+   "h": 5,
+   "model": "RFSV (paper)",
+   "mean MSE(log v)": 0.4673568308353424,
+   "MSE / HAR": 1.0006301403045654,
+   "beats HAR (MSE)": "17/31",
+   "mean QLIKE": 0.3097304292300091,
+   "QLIKE / HAR": 1.0018130565819232,
+   "beats HAR (QLIKE)": "15/31"
+  },
+  {
+   "data": "rv",
+   "h": 5,
+   "model": "Selected: COMB(RFSV,HAR-L)",
+   "mean MSE(log v)": 0.4580467641353607,
+   "MSE / HAR": 0.981830894947052,
+   "beats HAR (MSE)": "31/31",
+   "mean QLIKE": 0.3041244874583818,
+   "QLIKE / HAR": 0.9852736294097967,
+   "beats HAR (QLIKE)": "26/31"
+  },
+  {
+   "data": "rv",
+   "h": 20,
+   "model": "RW",
+   "mean MSE(log v)": 0.9626842737197876,
+   "MSE / HAR": 1.4438135623931885,
+   "beats HAR (MSE)": "0/31",
+   "mean QLIKE": 1.3661381195190303,
+   "QLIKE / HAR": 1.906754524718098,
+   "beats HAR (QLIKE)": "0/31"
+  },
+  {
+   "data": "rv",
+   "h": 20,
+   "model": "GARCH",
+   "mean MSE(log v)": 0.7674816250801086,
+   "MSE / HAR": 1.151774287223816,
+   "beats HAR (MSE)": "1/31",
+   "mean QLIKE": 0.5481372156334118,
+   "QLIKE / HAR": 0.9825003895810315,
+   "beats HAR (QLIKE)": "20/31"
+  },
+  {
+   "data": "rv",
+   "h": 20,
+   "model": "HAR",
+   "mean MSE(log v)": 0.6665963530540466,
+   "MSE / HAR": 1.0,
+   "beats HAR (MSE)": "0/31",
+   "mean QLIKE": 0.5679551548539407,
+   "QLIKE / HAR": 1.0,
+   "beats HAR (QLIKE)": "0/31"
+  },
+  {
+   "data": "rv",
+   "h": 20,
+   "model": "RFSV (paper)",
+   "mean MSE(log v)": 0.6660251021385193,
+   "MSE / HAR": 0.9962555170059204,
+   "beats HAR (MSE)": "15/31",
+   "mean QLIKE": 0.620160814866954,
+   "QLIKE / HAR": 1.0788022062282503,
+   "beats HAR (QLIKE)": "2/31"
+  },
+  {
+   "data": "rv",
+   "h": 20,
+   "model": "Selected: RFSV-roll250",
+   "mean MSE(log v)": 0.6743093729019165,
+   "MSE / HAR": 1.008087396621704,
+   "beats HAR (MSE)": "8/31",
+   "mean QLIKE": 0.6574645798835737,
+   "QLIKE / HAR": 1.144220538716577,
+   "beats HAR (QLIKE)": "1/31"
+  },
+  {
+   "data": "gk",
+   "h": 1,
+   "model": "RW",
+   "mean MSE(log v)": 0.9062239527702332,
+   "MSE / HAR": 1.4987307786941528,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 1.4037188044605242,
+   "QLIKE / HAR": 2.1458455510928443,
+   "beats HAR (QLIKE)": "0/20"
+  },
+  {
+   "data": "gk",
+   "h": 1,
+   "model": "GARCH",
+   "mean MSE(log v)": 0.69947749376297,
+   "MSE / HAR": 1.154247760772705,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 0.3635383007394403,
+   "QLIKE / HAR": 1.0953456869899716,
+   "beats HAR (QLIKE)": "0/20"
+  },
+  {
+   "data": "gk",
+   "h": 1,
+   "model": "HAR",
+   "mean MSE(log v)": 0.6055580973625183,
+   "MSE / HAR": 1.0,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 0.33190859809286377,
+   "QLIKE / HAR": 1.0,
+   "beats HAR (QLIKE)": "0/20"
+  },
+  {
+   "data": "gk",
+   "h": 1,
+   "model": "RFSV (paper)",
+   "mean MSE(log v)": 0.6404899954795837,
+   "MSE / HAR": 1.0587220191955566,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 0.35312875356335616,
+   "QLIKE / HAR": 1.060267021877586,
+   "beats HAR (QLIKE)": "1/20"
+  },
+  {
+   "data": "gk",
+   "h": 1,
+   "model": "Selected: HAR-L-RFSV",
+   "mean MSE(log v)": 0.5645949244499207,
+   "MSE / HAR": 0.9327993392944336,
+   "beats HAR (MSE)": "20/20",
+   "mean QLIKE": 0.30456950159526514,
+   "QLIKE / HAR": 0.9186630238246689,
+   "beats HAR (QLIKE)": "20/20"
+  },
+  {
+   "data": "gk",
+   "h": 5,
+   "model": "RW",
+   "mean MSE(log v)": 1.1554250717163086,
+   "MSE / HAR": 1.5644584894180298,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 2.5801756770426665,
+   "QLIKE / HAR": 2.3484248912470833,
+   "beats HAR (QLIKE)": "0/20"
+  },
+  {
+   "data": "gk",
+   "h": 5,
+   "model": "GARCH",
+   "mean MSE(log v)": 0.8176274299621582,
+   "MSE / HAR": 1.1055330038070679,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 0.453913450617605,
+   "QLIKE / HAR": 1.0434277152609703,
+   "beats HAR (QLIKE)": "2/20"
+  },
+  {
+   "data": "gk",
+   "h": 5,
+   "model": "HAR",
+   "mean MSE(log v)": 0.7403618097305298,
+   "MSE / HAR": 1.0,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 0.4353186646400974,
+   "QLIKE / HAR": 1.0,
+   "beats HAR (QLIKE)": "0/20"
+  },
+  {
+   "data": "gk",
+   "h": 5,
+   "model": "RFSV (paper)",
+   "mean MSE(log v)": 0.7513880133628845,
+   "MSE / HAR": 1.0152621269226074,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 0.44385605293445723,
+   "QLIKE / HAR": 1.0188733089889557,
+   "beats HAR (QLIKE)": "3/20"
+  },
+  {
+   "data": "gk",
+   "h": 5,
+   "model": "Selected: HAR-L-RFSV",
+   "mean MSE(log v)": 0.7139303088188171,
+   "MSE / HAR": 0.9648251533508301,
+   "beats HAR (MSE)": "20/20",
+   "mean QLIKE": 0.42391982377310206,
+   "QLIKE / HAR": 0.9733169473755006,
+   "beats HAR (QLIKE)": "16/20"
+  },
+  {
+   "data": "gk",
+   "h": 20,
+   "model": "RW",
+   "mean MSE(log v)": 1.4434618949890137,
+   "MSE / HAR": 1.5996571779251099,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 2.5694205528230625,
+   "QLIKE / HAR": 2.6489120572845324,
+   "beats HAR (QLIKE)": "0/20"
+  },
+  {
+   "data": "gk",
+   "h": 20,
+   "model": "GARCH",
+   "mean MSE(log v)": 1.0119267702102661,
+   "MSE / HAR": 1.1179442405700684,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 0.6022914458704689,
+   "QLIKE / HAR": 0.9498445079149358,
+   "beats HAR (QLIKE)": "16/20"
+  },
+  {
+   "data": "gk",
+   "h": 20,
+   "model": "HAR",
+   "mean MSE(log v)": 0.9047161340713501,
+   "MSE / HAR": 1.0,
+   "beats HAR (MSE)": "0/20",
+   "mean QLIKE": 0.639821967426793,
+   "QLIKE / HAR": 1.0,
+   "beats HAR (QLIKE)": "0/20"
+  },
+  {
+   "data": "gk",
+   "h": 20,
+   "model": "RFSV (paper)",
+   "mean MSE(log v)": 0.9018181562423706,
+   "MSE / HAR": 0.9959966540336609,
+   "beats HAR (MSE)": "12/20",
+   "mean QLIKE": 0.6852489584069084,
+   "QLIKE / HAR": 1.064818717297636,
+   "beats HAR (QLIKE)": "2/20"
+  },
+  {
+   "data": "gk",
+   "h": 20,
+   "model": "Selected: COMB(RFSV,HAR-L)",
+   "mean MSE(log v)": 0.8927474021911621,
+   "MSE / HAR": 0.9861363768577576,
+   "beats HAR (MSE)": "19/20",
+   "mean QLIKE": 0.6600237027527031,
+   "QLIKE / HAR": 1.0278814297109213,
+   "beats HAR (QLIKE)": "3/20"
+  }
+ ]
+}

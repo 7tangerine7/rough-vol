@@ -1,0 +1,2 @@
+check_no_lookahead(SPX[:2500], cut=1800): PASSED
+Every observation after day 1800 was perturbed; all forecasts made at origins <= 1800 were identical for every model and horizon.

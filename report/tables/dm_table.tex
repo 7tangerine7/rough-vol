@@ -1,0 +1,25 @@
+\begin{tabular}{llrcccc}
+\toprule
+Data & Comparison (A vs B) & $h$ & \multicolumn{2}{c}{log-MSE: A better / worse} & \multicolumn{2}{c}{QLIKE: A better / worse}\\
+\midrule
+RV & RFSV vs HAR & 1 & 2 & 17 & 2 & 6\\
+RV & RFSV vs HAR & 5 & 0 & 4 & 1 & 0\\
+RV & RFSV vs HAR & 20 & 0 & 0 & 1 & 0\\
+RV & HAR-L-RFSV vs HAR & 1 & 29 & 0 & 22 & 0\\
+RV & HAR-L-RFSV vs RFSV & 1 & 30 & 0 & 20 & 0\\
+RV & COMB(RFSV,HAR-L) vs HAR & 5 & 21 & 0 & 10 & 0\\
+RV & COMB(RFSV,HAR-L) vs RFSV & 5 & 19 & 0 & 9 & 0\\
+RV & RFSV-roll250 vs HAR & 20 & 0 & 1 & 0 & 4\\
+RV & RFSV-roll250 vs RFSV & 20 & 0 & 8 & 0 & 14\\
+\midrule
+GK & RFSV vs HAR & 1 & 0 & 18 & 0 & 8\\
+GK & RFSV vs HAR & 5 & 0 & 4 & 0 & 1\\
+GK & RFSV vs HAR & 20 & 1 & 1 & 0 & 0\\
+GK & HAR-L-RFSV vs HAR & 1 & 20 & 0 & 20 & 0\\
+GK & HAR-L-RFSV vs RFSV & 1 & 20 & 0 & 19 & 0\\
+GK & HAR-L-RFSV vs HAR & 5 & 18 & 0 & 6 & 0\\
+GK & HAR-L-RFSV vs RFSV & 5 & 18 & 0 & 12 & 0\\
+GK & COMB(RFSV,HAR-L) vs HAR & 20 & 6 & 0 & 0 & 0\\
+GK & COMB(RFSV,HAR-L) vs RFSV & 20 & 4 & 0 & 2 & 0\\
+\bottomrule
+\end{tabular}

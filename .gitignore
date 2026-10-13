@@ -1,0 +1,18 @@
+# Raw and processed data are not redistributed (Oxford-Man library terms, Yahoo terms).
+# Recreate them with scripts/download_data.py and scripts/build_data.py.
+data/raw/
+data/processed/*.csv
+!data/processed/data_quality.csv
+# Per-forecast files are >100 MB; recreated by scripts/run_forecasts.py
+results/*.parquet
+__pycache__/
+.ipynb_checkpoints/
+report/*.aux
+report/*.log
+report/*.out
+# Personal notes, not part of the project
+CV_BULLETS.md
+POLINA_STUDY_GUIDE.md
+# Mac system files
+.DS_Store
+__MACOSX/
